@@ -1,0 +1,22 @@
+{
+  "author": {
+    "name": "Kaique",
+    "lastname": "Bernardo"
+  },
+  "item": {
+    "id": "MLA123456",
+    "title": "iPhone 13 Pro Max 256gb Azul Sierra",
+    "price": {
+      "currency": "ARS",
+      "amount": 450000,
+      "decimals": 0
+    },
+    "picture": "https://http2.mlstatic.com/D_NQ_NP_123456-MLA123456-O.jpg",
+    "condition": "new",
+    "free_shipping": true,
+    "sold_quantity": 1543,
+    "description": "iPhone 13 Pro Max com tela Super Retina XDR de 6.7 polegadas, chip A15 Bionic, sistema de câmera Pro triplo com teleobjetiva, ultra grande angular e grande angular. Grava vídeos em Dolby Vision 4K. Bateria de longa duração. Resistente à água e poeira. Inclui carregador USB-C e cabo Lightning.",
+    "category_id": "MLA1055"
+  }
+}
+

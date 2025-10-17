@@ -1,0 +1,47 @@
+{
+  "name": "meli-server",
+  "version": "1.0.0",
+  "description": "Backend para front-end do Mercado Libre",
+  "type": "module",
+  "main": "src/servidor.js",
+  "scripts": {
+    "dev": "node --watch src/servidor.js",
+    "start": "node src/servidor.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --watch",
+    "lint": "eslint src tests",
+    "lint:fix": "eslint src tests --fix",
+    "format": "prettier --write \"src/**/*.js\" \"tests/**/*.js\"",
+    "prepare": "command -v husky >/dev/null && husky install || true"
+  },
+  "keywords": [
+    "mercadolibre",
+    "bff",
+    "api"
+  ],
+  "author": "Kaique",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "envalid": "^8.0.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "lru-cache": "^10.1.0",
+    "pino": "^8.16.2",
+    "pino-http": "^8.5.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1",
+    "supertest": "^6.3.3"
+  }
+}
